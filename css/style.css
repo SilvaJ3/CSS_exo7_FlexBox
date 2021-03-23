@@ -1,0 +1,41 @@
+body {
+    height: 900px;
+}
+
+header, footer {
+    background-color: blue;
+    margin: 5px;
+    border-radius: 5px;
+    height: 7%;
+}
+
+nav, aside {
+    background-color:orange;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex: auto;
+}
+
+nav {
+    display: flex;
+    order: -1;
+}
+
+article {
+    background-color:cadetblue;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex:40%;
+}
+
+.container {
+    height: 86%;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    /* align-items: center; */
+    /* justify-content:center; */
+}
+
